@@ -1,0 +1,11 @@
+text,label
+I love this product,1
+This is amazing,1
+Very happy with service,1
+Worst experience ever,0
+I hate this,0
+Not good at all,0
+Absolutely fantastic,1
+Terrible quality,0
+Really enjoyed it,1
+Waste of money,0

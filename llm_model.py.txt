@@ -1,0 +1,19 @@
+from openai import OpenAI
+
+client = OpenAI(api_key="YOUR_API_KEY")
+
+texts = [
+    "I love this product",
+    "This is terrible"
+]
+
+for text in texts:
+    response = client.chat.completions.create(
+        model="gpt-4o-mini",
+        messages=[
+            {"role":"user",
+             "content":f"Is this sentiment positive or negative? {text}"}
+        ]
+    )
+    
+    print(text, "->", response.choices[0].message.content)

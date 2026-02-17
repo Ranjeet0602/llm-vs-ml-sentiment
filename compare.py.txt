@@ -1,0 +1,16 @@
+print("""
+Comparison Study:
+
+ML Models:
+- Faster
+- Cheap
+- Needs training
+
+LLM:
+- Better language understanding
+- No training required
+- Higher cost
+
+Conclusion:
+LLMs show strong performance but ML is efficient for small tasks.
+""")
