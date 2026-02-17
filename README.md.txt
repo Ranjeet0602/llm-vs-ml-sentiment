@@ -1,17 +1,26 @@
 # LLM vs Traditional ML for Sentiment Analysis
 
-## Objective
-This project compares traditional ML models and LLMs for sentiment analysis.
+## Research Motivation
+This project explores the tradeoffs between traditional machine learning models and large language models (LLMs) for sentiment classification.
 
-## Models Compared
+## Objective
+To compare:
 - Logistic Regression
 - Random Forest
-- GPT (LLM)
+- GPT-based LLM
 
-## Evaluation Metrics
+## Evaluation Criteria
 - Accuracy
 - Speed
-- Cost consideration
+- Cost-efficiency
 
-## Insights
-LLMs provide strong generalization but ML models remain efficient for lightweight tasks.
+## Key Insight
+Traditional ML models are fast and cost-efficient, while LLMs provide better generalization and language understanding.
+
+## Tech Stack
+Python, Scikit-learn, OpenAI API
+
+## Future Work
+- Larger datasets
+- More evaluation metrics
+- Bias analysis
